@@ -1,11 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from '@/pages/Home';
+import Calendar from './components/Calendar';
 
 const App = () => {
   return (
-    <Routes>
-      <Route path='/' element={<Home />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path='/' element={<Calendar />} />
+      </Routes>
+    </>
   );
 };
 
